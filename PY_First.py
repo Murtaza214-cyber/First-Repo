@@ -1,6 +1,14 @@
 #This program says hello and asks for my name.
-
-print('Hello world!')
+x=1
+while x<4 :
+    print('Hello world!',x)
+    x=x+1
+    break
+x=["apple","banan","iueow"]
+ooooo=input()
+for i in x:
+    print(i)
+    x.append(input())
 print('What is your name?')    # ask for their name
 myName = input()
 print('It is good to meet you, ' + myName)
